@@ -1,0 +1,13 @@
+.timeline_profile_pic{
+    width: 150px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.profile_content_friends{
+    text-align: center;
+}
+.timeline_profile_name {
+    font-size: 25px;
+    color: blue;
+    margin: 10px;
+}

@@ -1,0 +1,141 @@
+*, html, body {
+    margin: 0;
+}
+body {
+    background-color: grey;
+}
+.profile__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile__pic {
+    width: 70px;
+    height: 80px;
+    object-fit: cover;
+}
+input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 20px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+.profile_nav_container {
+    background-color: coral;
+    padding: 5px;
+}
+.profile_cover_container {
+    width: 800px;
+    /* background-color: grey; */
+    margin: auto;
+    min-height:400px;
+}
+.profile__cover {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile_cover_pic {
+    width: 100%;
+    object-fit: cover;
+}
+.profile_cover_profile_pic{
+    width: 150px;
+    object-fit: cover;
+    margin-top: -70px;
+    border-radius: 20px;
+}
+.profile__name {
+    color: white;
+    margin: 10px;
+    font-size: 25px;
+}
+.menu__buttons {
+    width: 100px;
+    display: inline-block;
+    margin: 2px;
+    color: white;
+}
+.friends__img {
+    width:75px;
+    margin: 8px;
+}
+.profile__content {
+    display: flex;
+}
+
+.profile_content_left {
+    min-height: 400px;
+    flex: 1;
+}
+.profile_content_right {
+    min-height: 400px;
+    flex: 2.5;
+    padding: 20px;
+}
+
+.profile_content_friends {
+    background-color: white;
+    min-width: 200px;
+    min-height: 400px;
+    margin-top: 20px;
+    color: #aaa;
+    padding: 8px;
+}
+.friends__list {
+    clear: both;
+    display: flex;
+    align-items: center;
+}
+
+.post__area {
+    border: solid 1px  yellow;
+    padding: 10px;
+    background-color: white;
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    font-size: 14px;
+    height: 60px;
+}
+
+#post_button {
+    float: right;
+    border: none;
+    color: white;
+    background-color: blue;
+    padding:4px;
+    font-size: 14px;
+    border-radius: 2px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.friends__posts {
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+    
+}
+
+.posts {
+    padding: 4px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    margin-bottom:20px;
+}
+
+.friend__name {
+    font-weight: bold;
+    color: blue;
+}
+.post__date{
+    color: #999;
+}
